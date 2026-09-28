@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: multicomm-ensemble
+Version: 0.1.0
+Summary: Multi-LLM weighted ensemble pipeline for agentic coding frameworks
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2.5
+Requires-Dist: pillow>=10.0
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: openai>=1.40
+Requires-Dist: anthropic>=0.34
+Requires-Dist: pytest>=8.0
+Provides-Extra: neural
+Requires-Dist: torch>=2.2; extra == "neural"
+Requires-Dist: sentence-transformers>=2.6; extra == "neural"
+Requires-Dist: scikit-learn>=1.4; extra == "neural"

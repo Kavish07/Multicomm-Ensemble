@@ -1,0 +1,26 @@
+model_pool_id,public_checkpoint,functionality,benchmark,metric,score,source,tier,proxy_flag,date_accessed,url
+claude_s46,Claude Sonnet 4.6,repo_scale_editing,SWE-bench Verified,resolved-rate,0.796,LLM Stats / BenchLM leaderboard,A,no,2026-07-23,https://llm-stats.com/benchmarks/swe-bench-verified
+deepseek,DeepSeek V4 Pro (High),repo_scale_editing,SWE-bench Verified,resolved-rate,0.794,BenchLM leaderboard,A,no,2026-07-23,https://benchlm.ai/benchmarks/sweVerified
+qwen35,Qwen3.5-27B,repo_scale_editing,SWE-bench Verified,resolved-rate,0.724,BenchLM leaderboard,A,no,2026-07-23,https://benchlm.ai/benchmarks/sweVerified
+gpt4o,GPT-4.1 (proxy),repo_scale_editing,SWE-bench Verified,resolved-rate,0.546,BenchLM leaderboard,A,yes,2026-07-23,https://benchlm.ai/benchmarks/sweVerified
+deepseek,DeepSeek V4 Pro (Max),algorithmic_implementation,LiveCodeBench,pass@1,0.935,LLM Stats / BenchLM leaderboard,A,no,2026-07-23,https://llm-stats.com/benchmarks/livecodebench
+qwen35,Qwen3.7 Max (proxy),algorithmic_implementation,LiveCodeBench,pass@1,0.916,BenchLM leaderboard,A,yes,2026-07-23,https://benchlm.ai/benchmarks/liveCodeBench
+claude_s46,(cross-benchmark estimate),algorithmic_implementation,LiveCodeBench,pass@1-est,0.93,WIF estimator (ratio method),E,est,2026-07-23,-
+gpt4o,(cross-benchmark estimate),algorithmic_implementation,LiveCodeBench,pass@1-est,0.67,WIF estimator (ratio method),E,est,2026-07-23,-
+gpt4o,GPT-5 high (proxy),multilang_editing,Aider Polyglot,pass-rate,0.88,LLM Stats / steel.dev leaderboard,A,yes,2026-07-23,https://llm-stats.com/benchmarks/aider-polyglot
+claude_s46,Claude Opus 4.6 (proxy),multilang_editing,Aider Polyglot,pass-rate,0.821,TokenMix aggregate,B,yes,2026-07-23,https://tokenmix.ai/blog/llm-leaderboard-2026
+deepseek,(cross-benchmark estimate),multilang_editing,Aider Polyglot,pass-rate-est,0.82,WIF estimator (ratio method),E,est,2026-07-23,-
+qwen35,(cross-benchmark estimate),multilang_editing,Aider Polyglot,pass-rate-est,0.75,WIF estimator (ratio method),E,est,2026-07-23,-
+claude_s46,Claude Opus 4.7-thinking cluster,ui_visual_development,Code Arena WebDev (Elo),top-cluster,1.0,arena.ai snapshot 2026-05-24 (via Propel),B,cluster,2026-07-23,https://arena.ai/blog/leaderboard-changelog/
+gpt4o,GPT-4o,ui_visual_development,Internal pilot visual score,accuracy,0.78,Phase-5 pilot (Section 5B.2),C,no,2026-07-23,internal
+claude_s46,Claude Sonnet 4.6,ui_visual_development,Internal pilot visual score,accuracy,0.81,Phase-5 pilot (Section 5B.2),C,no,2026-07-23,internal
+deepseek,DeepSeek-Coder V3,ui_visual_development,Internal pilot visual score,accuracy,0.44,Phase-5 pilot (Section 5B.2),C,no,2026-07-23,internal
+qwen35,Qwen3.5-Coder,ui_visual_development,Internal pilot visual score,accuracy,0.61,Phase-5 pilot (Section 5B.2),C,no,2026-07-23,internal
+gpt4o,GPT-4o,planning,Internal pilot pass@1,pass@1,0.74,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+claude_s46,Claude Sonnet 4.6,planning,Internal pilot pass@1,pass@1,0.79,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+deepseek,DeepSeek-Coder V3,planning,Internal pilot pass@1,pass@1,0.61,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+qwen35,Qwen3.5-Coder,planning,Internal pilot pass@1,pass@1,0.68,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+gpt4o,GPT-4o,code_review,Internal pilot pass@1,pass@1,0.72,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+claude_s46,Claude Sonnet 4.6,code_review,Internal pilot pass@1,pass@1,0.83,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+deepseek,DeepSeek-Coder V3,code_review,Internal pilot pass@1,pass@1,0.64,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
+qwen35,Qwen3.5-Coder,code_review,Internal pilot pass@1,pass@1,0.71,Phase-5 pilot (Table 5B.1),C,no,2026-07-23,internal
