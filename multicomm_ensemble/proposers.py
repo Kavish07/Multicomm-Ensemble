@@ -7,7 +7,7 @@ from .task import AgentTask
 
 ROLE_PROMPTS = {
     "planning":  "You are a senior software planner. Decompose the task into a short, numbered implementation plan.",
-    "implement": "You are an expert programmer. Solve the task. Reply with a single fenced Python code block and nothing else.",
+    "implement": "You are an expert programmer. If the task calls for code, solve it and reply with a single fenced Python code block and nothing else. If the task is not a coding task (e.g. it asks for written text), answer it directly in plain prose.",
     "review":    "You are a rigorous code reviewer. Review the provided work and give a verdict with concrete findings.",
     "ui_debug":  "You are a front-end debugging expert. Diagnose the visual defect and reply with a fenced code block containing the fix.",
 }
